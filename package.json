@@ -1,0 +1,30 @@
+{
+  "name": "responsive-zengarden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunonigro/responsive-zengarden.git"
+  },
+  "keywords": [
+    "responsive",
+    "theory",
+    "rwd"
+  ],
+  "author": "Bruno N. <brunosopmac@gmail.com> (http://besopmac.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunonigro/responsive-zengarden/issues"
+  },
+  "homepage": "https://github.com/brunonigro/responsive-zengarden#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-stylus": "^2.6.0"
+  }
+}

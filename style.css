@@ -7,42 +7,45 @@ html {
 }
 .container {
   margin: 0 auto;
-  width: 960px;
+  width: 67.5%; /* +/- 960px */
 }
 h1 {
-  font-size: 32px;
+  font-size: 2em; /* (alvo) 32px / (contexto) 16px = (resultado) 2em */
 }
-.brief {
-  margin: 5px 0;
+.content {
+  margin: 1.5625% 0; /* (15px / 960px) * 100% */
 }
 .content-main {
   float: left;
-  width: 593px;
+  width: 61.7708%; /* ((content-main) 593px / (container) 960px) * 100% */
 }
 .hero {
-  margin: 25px 0;
+  margin: 4.215% 0; /* (25px / 593px) * 100% */
+}
+.brief {
+  margin: 1% 0; /* (5px / 593px) * 100% = ~1% */
 }
 
 .last-contents {
-  font-size: 12px;
+  font-size: .75em; /* 12px / 16px */
 }
 .last-content-call {
   float: left;
-  margin: 15px 15px 15px 0;
-  width: 280px;
+  margin: 2.5295% 2.5295% 2.5295% 0; /* (15px / 593px) * 100% */
+  width: 47.2175%; /* (280px / 593px) * 100% */
 }
 .last-content-call .secondary-title {
   margin-bottom: 0;
 }
 .last-content-call .brief {
-  margin: 5px;
+  margin: 1%;
 }
 
 .content-sidebar {
   background-color: #f0f0f0;
   float: right;
-  padding: 10px;
-  width: 322px;
+  padding: 1.0416%; /* (10px / 960px) * 100% */
+  width: 33.5416%; /* (322px / 960px) * 100% */
 }
 .main-nav ul {
   list-style-type: none;
@@ -50,14 +53,14 @@ h1 {
 .main-nav li {
   background-color: #f9f9f9;
   float: left;
-  margin: 15px;
+  margin: 4.6583%; /* (15px / (container-sidebar) 322px) * 100%  */
   outline: 1px solid #dedede;
   text-align: center;
-  width: 130px;
+  width: 40.3726%; /* (130px / 322px) * 100% */
 }
 .main-nav a {
   display: block;
-  padding: 10px;
+  padding: 7.6923%; /* (10px / (main-nav li) 130px) * 100 */
   text-decoration: none;
 }
 
@@ -65,9 +68,9 @@ h1 {
   background-color: #f0f0f0;
   clear: both;
   float: left;
-  font-size: 12px;
-  margin: 15px 0;
-  padding: 15px;
+  font-size: .75em; /* 12px / 16px */
+  margin: 1.5625% 0; /* (15px / 960px) * 100% */
+  padding: 1.5625%; /* (15px / 960px) * 100% */
   text-align: center;
   width: 100%;
 }
